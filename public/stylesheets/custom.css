@@ -1,12 +1,17 @@
 a {
-	color: white;
+	/*color: white;*/
 	text-decoration: none;
 	background-color: none;
-	font-family: Georgia, serif;
+	/*font-family: Georgia, serif;*/
+}
+
+.navbar li a {
+	color: white;
 }
 
 body {
 	margin: 0px;
+	
 }
 
 body.home {

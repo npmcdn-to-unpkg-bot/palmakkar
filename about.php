@@ -8,8 +8,7 @@
 		<meta name ="description" content ="About Pal Makkar">
 		<meta name ="author" content ="Pal Makkar">
 
-		<link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="public/stylesheets/custom.css">
+		<?php include "include_style.php"; ?>
 
 	</head>
 
@@ -17,18 +16,18 @@
 		<div class='navbar'>
 			<ul id="homebar" class="navigation-bar">
 				<li id="logo">
-					<a href="/index.html">
+					<a href="./">
 						<img src="public/images/logo.png" alt="logo" style="width:304px;height:50px;">
 					</a>
 				</li>
-				<li class='nav-link'><a href="/contact.html">Contact</a></li>
-				<li class='nav-link'><a href="/about.html">About</a></li>
+				<li class='nav-link'><a href="./contact">Contact</a></li>
+				<li class='nav-link'><a href="./about">About</a></li>
 			</ul>
 		</div>
 
 		<div class="content relative">
 			<div id='profile-pic' style='display:inline-block;width:304px;height: 350px;'>
-				<img src="public/images/pal.jpg" alt="Picture of Pal" style="width:304px;height:350px;">
+				<img src="public/images/pal.jpg" class='img-rounded' alt="Picture of Pal" style="width:304px;height:350px;">
 			</div>
 			<div id="about-info" style='display:inline-block;position:absolute; margin-left: 3em;'>
 				<h1 style="margin-bottom:0">ABOUT ME</h1>
