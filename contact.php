@@ -8,7 +8,7 @@
 		<meta name ="description" content ="Contact Me | Pal Makkar">
 		<meta name ="author" content ="Pal Makkar">
 
-		<link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
+		<link href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="public/stylesheets/custom.css">
 
 	</head>
